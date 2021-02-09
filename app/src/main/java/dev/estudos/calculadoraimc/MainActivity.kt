@@ -1,5 +1,7 @@
 package dev.estudos.calculadoraimc
 
+
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -9,6 +11,11 @@ import dev.estudos.calculadoraimc.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+
+    companion object {
+        const val TAG = "bmi_result"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
@@ -20,7 +27,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initComponents() {
-        title = "CALCULADORA IMC"
+        title = "BMI Calculator"
         binding.btActivityMainCalc.setOnClickListener {
             when {
                 binding.etActivityMainWeight.text.isBlank() -> {
@@ -45,9 +52,13 @@ class MainActivity : AppCompatActivity() {
                     val height = binding.etActivityMainHeight.text.toString().toBigDecimal()
                     val result = BMI().calc(weight, height)
                     Log.d("MainActivity", result.toString())
+                    val intent = Intent(this, ResultActivity::class.java).apply {
+                        putExtra(TAG, result.toString())
+                    }
+                    startActivity(intent)
+
                 }
             }
-
         }
 
         binding.btActivityMainClear.setOnClickListener {

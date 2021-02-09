@@ -3,17 +3,21 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="red">#FF020A</color>
+    <color name="red_200">#EF9A9A</color>
+    <color name="yellow_500">#FFffee58</color>
+    <color name="yellow_200">#FFF59D</color>
 
-    <color name="green_500">#4caf50</color>
-    <color name="green_700">#087f23</color>
-    <color name="green_200">#a5d6a7</color>
-    <color name="green_sec">#75a478</color>
+    <color name="green_500">#FF4caf50</color>
+    <color name="green_700">#FF087f23</color>
+    <color name="green_200">#FFa5d6a7</color>
+    <color name="green_sec">#FF75a478</color>
 
 
-    <color name="primaryColor">#4caf50</color>
-    <color name="primaryDarkColor">#087f23</color>
-    <color name="secondaryColor">#c5e1a5</color>
-    <color name="secondaryLightColor">#f8ffd7</color>
+    <color name="primaryColor">#FF4caf50</color>
+    <color name="primaryDarkColor">#FF087f23</color>
+    <color name="secondaryColor">#FFc5e1a5</color>
+    <color name="secondaryLightColor">#FFf8ffd7</color>
 
 
 </resources>

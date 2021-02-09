@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="messages">
+        <item>CUIDADO!!! : Você está num nível alto de Magreza.</item>
+        <item>ATENÇÃO!!! : Você está abaixo do peso.</item>
+        <item>PARABÉNS!!! : Você está dentro do peso ideal.</item>
+        <item>ATENÇÃO!!! : Você está com sobrepreso.</item>
+        <item>CUIDADO!!! : Você está obeso.</item>
+    </array>
+</resources>
