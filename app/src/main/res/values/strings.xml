@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">CalculadoraIMC</string>
-    <string name="message_tv_activity_main">Descubra qual é o seu indice de massa corporal</string>
-    <string name="tv_activity_main_weight">Peso</string>
-    <string name="tv_activity_main_weight_hint">Ex. 75,4</string>
+    <string name="app_name">BMI Calculator</string>
+    <string name="message_tv_activity_main">Check what is your body mass index</string>
+    <string name="tv_activity_main_weight">Weight</string>
+    <string name="tv_activity_main_weight_hint">Ex. 75.4</string>
     <string name="tv_activity_main_weight_unit">KG</string>
     <string name="tv_activity_main_height_unit">M</string>
-    <string name="tv_activity_main_height_hint">Ex. 1,87</string>
-    <string name="tv_activity_main_height">Altura</string>
-    <string name="bt_activity_main_calc">Calcular IMC</string>
-    <string name="bt_activity_main_clear">Limpar e fazer novo calculo</string>
+    <string name="tv_activity_main_height_hint">Ex. 1.87</string>
+    <string name="tv_activity_main_height">Height</string>
+    <string name="bt_activity_main_calc">Calc BMI</string>
+    <string name="bt_activity_main_clear">Clear Fields</string>
 </resources>
