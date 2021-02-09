@@ -48,6 +48,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_activity_main_weight_unit"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_activity_main_weight"
+        android:importantForAutofill="no"
         app:layout_constraintTop_toTopOf="@+id/tv_activity_main_weight" />
 
 
@@ -88,6 +89,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_activity_main_height_unit"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv_activity_main_height"
+        android:importantForAutofill="no"
         app:layout_constraintTop_toTopOf="@+id/tv_activity_main_height" />
 
 
